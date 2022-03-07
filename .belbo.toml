@@ -1,0 +1,29 @@
+# Default site settings
+
+sitename = "Dilek Erkut"
+title = "Dilek Erkut"
+author = "Dilek Erkut"
+layout = "base_layout"
+description = "Dilek Erkut"
+
+content_dir = [
+    "posts",
+]
+templates_dir = "templates"
+output_dir = "dist"
+static_dir = "static"
+plugins_dir = "plugins"
+
+display_title = true
+display_date = true
+display_backlink = true
+
+templates = [
+    "head",
+    "footer",
+    "scripts",
+    "highlighter",
+    "index_left",
+    "index_top",
+    "index_right"
+]

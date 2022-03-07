@@ -1,0 +1,9 @@
+{{ define "partials_head"}}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ .Config.description }}">
+<meta name="keywords" content="software, {{ .Config.keywords }}">
+<link rel="stylesheet" href="/{{ .Config.static_dir }}/css/style.css">
+<link rel="shortcut icon" href="/static/myicon.svg"/>
+<title>{{ .Config.sitename }}{{ if .Config.title }} | {{ .Config.title }} {{ end }}</title>
+{{ end }}
